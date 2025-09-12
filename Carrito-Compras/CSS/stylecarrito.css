@@ -1,0 +1,35 @@
+/* Estilo para animaciones de agregado/eliminado */
+.agregado {
+  background-color: #d4edda !important; /* Verde claro */
+  color: #9fc9f0 !important;
+  animation: fade 1s ease-in-out;
+}
+
+.eliminado {
+  background-color: #f8d7da !important; /* Rojo claro */
+  color: #721c24 !important;
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0.3; }
+  to { opacity: 1; }
+}
+
+/* FOOTER */
+.footer {
+    background: #9dbaf4;
+    color: rgb(240, 231, 231);
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer address {
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.footer a {
+    color: #f16fd5;
+    text-decoration: none;
+}
